@@ -1,0 +1,21 @@
+.game-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    background: #14110f;
+    color: #f3ead7;
+}
+
+.hints {
+    max-width: 480px;
+    line-height: 1.8;
+}
+
+.game-screen input {
+    padding: 8px 12px;
+    margin-right: 8px;
+}
